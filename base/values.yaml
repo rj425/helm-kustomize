@@ -1,0 +1,4 @@
+app_name: demo-app
+app_replicas: 1
+image_url: https://hub.docker.com/r/paulbouwer/hello-kubernetes/
+container_port: 80
