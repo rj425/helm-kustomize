@@ -1,0 +1,7 @@
+kind: Kustomization 
+
+commonLabels:
+  environment: dev
+
+resources:
+- app.yaml

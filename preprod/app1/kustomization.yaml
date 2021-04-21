@@ -1,0 +1,6 @@
+kind: Kustomization 
+
+namePrefix: preprod-
+
+resources:
+- app.yaml

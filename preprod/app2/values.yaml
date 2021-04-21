@@ -1,4 +1,4 @@
-app_name: demo-app3
+app_name: demo-app2
 app_replicas: 1
 image_url: nginxdemos/nginx-hello:latest
 container_port: 8080
