@@ -6,7 +6,5 @@ spec:
   selector:
     app: {{.Values.app_name}}
   ports:
-  - port: 80
-    name: {{.Values.app_name}}
+  - port: {{.Values.service_port}}
     targetPort: {{.Values.container_port}}
-  type: ClusterIP
