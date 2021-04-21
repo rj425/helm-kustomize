@@ -1,0 +1,6 @@
+kind: Kustomization 
+
+namePrefix: dev-
+
+resources:
+- app.yaml
