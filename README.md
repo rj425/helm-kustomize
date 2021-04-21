@@ -4,12 +4,12 @@
 
 ```yaml
 data:
-configManagementPlugins: |
+  configManagementPlugins: |
     - name: helm+kustomize
-    init:
-        command: ["/bin/sh", "-c"]
-        args: ["helm template ../../base -f ./values.yaml > app.yaml"]
-    generate:                      
-        command: ["/bin/sh", "-c"]
-        args: ["kustomize build"]
+        init:
+          command: ["/bin/sh", "-c"]
+          args: ["helm template ../../base -f ./values.yaml > app.yaml"]
+        generate:                      
+          command: ["/bin/sh", "-c"]
+          args: ["kustomize build"]
 ```
