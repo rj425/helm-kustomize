@@ -1,0 +1,5 @@
+app_name: demo-app3
+app_replicas: 1
+image_url: nginxdemos/nginx-hello:latest
+container_port: 8080
+service_port: 80
