@@ -1,5 +1,5 @@
 app_name: demo-app
 app_replicas: 1
 image_url: gcr.io/heptio-images/ks-guestbook-demo:0.2
-container_port: 8888
+container_port: 80
 service_port: 80
