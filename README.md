@@ -1,4 +1,4 @@
-# helm-kustomize
+# helm + kustomize
 
 **Register a new plugin in `argocd-cm` ConfigMap.**
 
